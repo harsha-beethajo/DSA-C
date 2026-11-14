@@ -10,11 +10,11 @@ int TwoSum(int arr[],int arraySize,int target)
     {
         return 1;
     }
-    if (arr[left]+arr[right]<target)
+    else if (arr[left]+arr[right]<target)
     {
         left++;
     }
-    if (arr[left]+arr[right]>target)
+    else if (arr[left]+arr[right]>target)
     {
         right--;
     }
