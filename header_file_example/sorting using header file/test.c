@@ -10,7 +10,7 @@ int main()
    {
       printf("%d ",arr[i]);
    }
-   sort(arr,n);
+   sort(arr,n); // sorting from bubble_sort.h header file!
    printf("\nAfter sorting: ");
    for (int i = 0; i < n; i++)
    {
